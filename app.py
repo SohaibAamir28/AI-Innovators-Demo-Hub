@@ -1,9 +1,7 @@
 import streamlit as st
 
-# Page Title and Summary
+# Page Title
 st.title("Quantum-Scribe: AI-Powered Automatic Manuscript Generation")
-st.subheader("Summary")
-st.write("Quantum-Scribe revolutionizes content creation using AI. Our project aims to automate the generation of high-quality manuscripts, reports, and articles, saving time and enhancing creativity.")
 
 # Project Idea
 st.subheader("Idea")
@@ -18,13 +16,15 @@ st.write("- High-Quality Content: Expect content that meets the highest standard
 st.write("- Wide Range of Topics: Quantum-Scribe covers diverse subjects, from academic research to marketing materials.")
 
 # Text Box
-text_box_content = "Quantum-Scribe | AI Manuscript Generation | Revolutionizing Content Creation"
-user_input = st.text_area("Additional Comments", text_box_content)
+user_input = st.text_area("Quantum-Scribe | AI Manuscript Generation | Revolutionizing Content Creation", text_box_content)
 
-
-# Button to Open Project on GitHub
 if st.button("Quantum-Scribe"):
-    st.markdown("[Open Project](https://github.com/SohaibAamir28/Quantum-Scribe/blob/main/Quantum_Scribe_Fine_Tuning.ipynb)")
+    st.write("Quantum-Scribe!")
+    st.markdown("[Visit OpenAI](https://github.com/SohaibAamir28/Quantum-Scribe/blob/main/Quantum_Scribe_Fine_Tuning.ipynb)")  # Replace with your desired link
+
+# Page Summary
+st.subheader("Summary")
+st.write("Quantum-Scribe revolutionizes content creation using AI. Our project aims to automate the generation of high-quality manuscripts, reports, and articles, saving time and enhancing creativity.")
 
 # Footer
 st.text("© 2023 Hack Whizzes Team")
