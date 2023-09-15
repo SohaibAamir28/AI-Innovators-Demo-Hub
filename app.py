@@ -21,7 +21,7 @@ user_input = st.text_area("Quantum-Scribe | AI Manuscript Generation | Revolutio
 
 url = 'https://github.com/SohaibAamir28/Quantum-Scribe/blob/main/Quantum_Scribe_Fine_Tuning.ipynb'
 st.markdown(f'''
-<a href={url}><button style="background-color:GreenYellow;">Stackoverflow</button></a>
+<a href={url}><button style="background-color:GreenYellow;">Quantum-Scribe</button></a>
 ''',
 unsafe_allow_html=True)
 
