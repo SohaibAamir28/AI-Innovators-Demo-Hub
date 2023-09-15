@@ -15,12 +15,16 @@ st.write("- Enhanced Creativity: Say goodbye to writer's block and hello to insp
 st.write("- High-Quality Content: Expect content that meets the highest standards.")
 st.write("- Wide Range of Topics: Quantum-Scribe covers diverse subjects, from academic research to marketing materials.")
 
-# Text Box
+# Search Box
 user_input = st.text_area("Quantum-Scribe | AI Manuscript Generation | Revolutionizing Content Creation", text_box_content)
 
-if st.button("Quantum-Scribe"):
-    st.write("Quantum-Scribe!")
-    st.markdown("[Visit OpenAI](https://github.com/SohaibAamir28/Quantum-Scribe/blob/main/Quantum_Scribe_Fine_Tuning.ipynb)")  # Replace with your desired link
+st.text_input('Quantum-Scribe | AI Manuscript Generation | Revolutionizing Content Creation', '')
+
+url = 'https://github.com/SohaibAamir28/Quantum-Scribe/blob/main/Quantum_Scribe_Fine_Tuning.ipynb'
+st.markdown(f'''
+<a href={url}><button style="background-color:GreenYellow;">Stackoverflow</button></a>
+''',
+unsafe_allow_html=True)
 
 # Page Summary
 st.subheader("Summary")
