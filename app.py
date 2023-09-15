@@ -16,9 +16,8 @@ st.write("- High-Quality Content: Expect content that meets the highest standard
 st.write("- Wide Range of Topics: Quantum-Scribe covers diverse subjects, from academic research to marketing materials.")
 
 # Search Box
-user_input = st.text_area("Quantum-Scribe | AI Manuscript Generation | Revolutionizing Content Creation", text_box_content)
-
-st.text_input('Quantum-Scribe | AI Manuscript Generation | Revolutionizing Content Creation', '')
+text_box_content = "Quantum-Scribe"
+user_input = st.text_area("Quantum-Scribe | AI Manuscript Generation | Revolutionizing Content Creation", value=text_box_content)
 
 url = 'https://github.com/SohaibAamir28/Quantum-Scribe/blob/main/Quantum_Scribe_Fine_Tuning.ipynb'
 st.markdown(f'''
